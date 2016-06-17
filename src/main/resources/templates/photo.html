@@ -1,14 +1,35 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel='stylesheet' href='webjars/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <title></title>
-</head>
 <body>
+<!-- .container is main centered wrapper -->
+<div class="container">
 
-<script type="text/javascript" src="webjars/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="webjars/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- columns should be the immediate child of a .row -->
+    <div class="row">
+        <div class="one column">One</div>
+        <div class="eleven columns">Eleven</div>
+    </div>
+
+    <!-- just use a number and class 'column' or 'columns' -->
+    <div class="row">
+        <div class="two columns">Two</div>
+        <div class="ten columns">Ten</div>
+    </div>
+
+    <!-- there are a few shorthand columns widths as well -->
+    <div class="row">
+        <div class="one-third column">1/3</div>
+        <div class="two-thirds column">2/3</div>
+    </div>
+    <div class="row">
+        <div class="one-half column">1/2</div>
+        <div class="one-half column">1/2</div>
+    </div>
+
+</div>
+
+<!-- Note: columns can be nested, but it's not recommended since Skeleton's
+grid has %-based gutters, meaning a nested grid results in variable with
+gutters (which can end up being *really* small on certain browser/device sizes) -->
+
 </body>
 </html>
