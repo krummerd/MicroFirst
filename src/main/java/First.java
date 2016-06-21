@@ -1,7 +1,11 @@
-/**
- * Created by User on 22.05.2016.
- */
 public class First {
+
+
+    private String a;
+
+
+    private String b;
+
     public int addN(int a, int b){
         int result = a + b;
         return result;
