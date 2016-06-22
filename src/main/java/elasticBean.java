@@ -1,7 +1,7 @@
 /**
  * Created by dmytro.krummer on 17.06.2016.
  */
-public class elasticBean {
+public class ElasticBean {
 
     private int id;
 
@@ -15,7 +15,7 @@ public class elasticBean {
 
     private String ip_address;
 
-    public elasticBean(){
+    public ElasticBean(){
 
     }
 
