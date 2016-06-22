@@ -10,14 +10,14 @@ import java.util.List;
 
 public class ElasticFiller  {
 
-    private List<elasticBean> objectListFromJson = new ArrayList<>();
+    private List<ElasticBean> objectListFromJson = new ArrayList<>();
 
-    public List<elasticBean> getObjectListFromJson() {
+    public List<ElasticBean> getObjectListFromJson() {
         try{
 
             JsonParser jParser = new JsonFactory().createParser(new File("elastic-data.json"));
 
-            elasticBean eBean = new elasticBean();
+            ElasticBean eBean = new ElasticBean();
 
 
 
