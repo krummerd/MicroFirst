@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2cd86157-8fe2-4331-9d7a-40006c6b2445" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ElasticFiller.java" afterPath="$PROJECT_DIR$/src/main/java/ElasticFiller.java" />
     </list>
     <ignored path="MicroFirst.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -934,10 +932,18 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="change name">
+      <created>1466586879764</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1466586879764</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1459000" />
+    <option name="totallyTimeSpent" value="1499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
@@ -982,6 +988,10 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change name" />
+    <option name="LAST_COMMIT_MESSAGE" value="change name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
